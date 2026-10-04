@@ -82,6 +82,162 @@
 
         </section>
 
+        <section id="campanhas">
+
+            <h2>Campanhas cadastradas</h2>
+
+            <p>
+                Consulte as campanhas atualmente cadastradas no sistema.
+            </p>
+
+
+            <form action="#" method="get">
+
+                <fieldset>
+
+                    <legend>
+                        Pesquisa e filtros
+                    </legend>
+
+
+                    <div>
+
+                        <label for="pesquisa">
+                            Pesquisar campanha:
+                        </label>
+
+                        <input
+                            type="search"
+                            id="pesquisa"
+                            name="pesquisa"
+                            placeholder="Digite o nome da campanha"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="filtro-sistema">
+                            Filtrar por sistema:
+                        </label>
+
+                        <select
+                            id="filtro-sistema"
+                            name="filtro-sistema"
+                        >
+
+                            <option value="">
+                                Todos os sistemas
+                            </option>
+
+                            <option value="dnd5e">
+                                Dungeons & Dragons 5e
+                            </option>
+
+                            <option value="tormenta20">
+                                Tormenta 20
+                            </option>
+
+                            <option value="ordem-paranormal">
+                                Ordem Paranormal
+                            </option>
+
+                            <option value="pathfinder2e">
+                                Pathfinder 2e
+                            </option>
+
+                            <option value="call-of-cthulhu">
+                                Call of Cthulhu
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="filtro-status">
+                            Filtrar por status:
+                        </label>
+
+                        <select
+                            id="filtro-status"
+                            name="filtro-status"
+                        >
+
+                            <option value="">
+                                Todos
+                            </option>
+
+                            <option value="planejamento">
+                                Planejamento
+                            </option>
+
+                            <option value="ativa">
+                                Em andamento
+                            </option>
+
+                            <option value="pausada">
+                                Pausada
+                            </option>
+
+                            <option value="concluida">
+                                Concluída
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="ordenacao">
+                            Ordenar por:
+                        </label>
+
+                        <select
+                            id="ordenacao"
+                            name="ordenacao"
+                        >
+
+                            <option value="nome">
+                                Nome
+                            </option>
+
+                            <option value="sistema">
+                                Sistema
+                            </option>
+
+                            <option value="status">
+                                Status
+                            </option>
+
+                            <option value="data-recente">
+                                Data mais recente
+                            </option>
+
+                            <option value="data-antiga">
+                                Data mais antiga
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button type="button">
+                        Pesquisar
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
         <section id="nova-campanha">
 
             <h2>Cadastrar nova campanha</h2>
