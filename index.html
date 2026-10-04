@@ -82,6 +82,264 @@
 
         </section>
 
+        <section id="nova-campanha">
+
+            <h2>Cadastrar nova campanha</h2>
+
+            <p>
+                Preencha as informações abaixo para cadastrar uma campanha.
+            </p>
+
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Informações da campanha
+                    </legend>
+
+
+                    <div>
+
+                        <label for="nome-campanha">
+                            Nome da campanha:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome-campanha"
+                            name="nome-campanha"
+                            placeholder="Ex.: O Reino das Cinzas"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="sistema">
+                            Sistema de RPG:
+                        </label>
+
+                        <select
+                            id="sistema"
+                            name="sistema"
+                            required
+                        >
+
+                            <option value="">
+                                Selecione um sistema
+                            </option>
+
+                            <option value="dnd5e">
+                                Dungeons & Dragons 5e
+                            </option>
+
+                            <option value="tormenta20">
+                                Tormenta 20
+                            </option>
+
+                            <option value="ordem-paranormal">
+                                Ordem Paranormal
+                            </option>
+
+                            <option value="pathfinder2e">
+                                Pathfinder 2e
+                            </option>
+
+                            <option value="call-of-cthulhu">
+                                Call of Cthulhu
+                            </option>
+
+                            <option value="outro">
+                                Outro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="mestre">
+                            Mestre:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="mestre"
+                            name="mestre"
+                            placeholder="Nome do mestre"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="jogadores">
+                            Número máximo de jogadores:
+                        </label>
+
+                        <input
+                            type="number"
+                            id="jogadores"
+                            name="jogadores"
+                            min="1"
+                            max="20"
+                            value="5"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="data-inicio">
+                            Data de início:
+                        </label>
+
+                        <input
+                            type="date"
+                            id="data-inicio"
+                            name="data-inicio"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="status">
+                            Status:
+                        </label>
+
+                        <select id="status" name="status">
+
+                            <option value="planejamento">
+                                Planejamento
+                            </option>
+
+                            <option value="ativa">
+                                Em andamento
+                            </option>
+
+                            <option value="pausada">
+                                Pausada
+                            </option>
+
+                            <option value="concluida">
+                                Concluída
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="visibilidade">
+                            Visibilidade:
+                        </label>
+
+                        <select
+                            id="visibilidade"
+                            name="visibilidade"
+                        >
+
+                            <option value="privada">
+                                Privada
+                            </option>
+
+                            <option value="publica">
+                                Pública
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="genero">
+                            Gênero da campanha:
+                        </label>
+
+                        <select id="genero" name="genero">
+
+                            <option value="">
+                                Selecione
+                            </option>
+
+                            <option value="fantasia">
+                                Fantasia
+                            </option>
+
+                            <option value="terror">
+                                Terror
+                            </option>
+
+                            <option value="ficcao-cientifica">
+                                Ficção científica
+                            </option>
+
+                            <option value="investigacao">
+                                Investigação
+                            </option>
+
+                            <option value="aventura">
+                                Aventura
+                            </option>
+
+                            <option value="outro">
+                                Outro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="descricao">
+                            Descrição:
+                        </label>
+
+                        <textarea
+                            id="descricao"
+                            name="descricao"
+                            rows="6"
+                            placeholder="Descreva o cenário, a história ou a proposta da campanha..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <div>
+
+                        <button type="submit">
+                            Cadastrar campanha
+                        </button>
+
+                        <button type="reset">
+                            Limpar formulário
+                        </button>
+
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
     </main>
 
 
